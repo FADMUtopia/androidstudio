@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--add this link for credit to icon <a href="https://www.flaticon.com/free-icons/mental-health" title="mental health icons">Mental health icons created by Freepik - Flaticon</a>-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="344dp"
+        android:layout_height="487dp"
+        android:contentDescription="@string/IconDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323"
+        app:srcCompat="@drawable/mental_health" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
